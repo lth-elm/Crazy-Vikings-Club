@@ -1,0 +1,15 @@
+version: "3"
+
+networks:
+  vk-shop:
+
+services:
+  vk-shop:
+    build: ./
+    # env_file: ../.env
+    container_name: vk-shop-app
+    restart: always
+    ports:
+      - "8090:8090"
+    networks:
+      - vk-shop

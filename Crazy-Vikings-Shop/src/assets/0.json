@@ -1,0 +1,26 @@
+{
+  "name": "Crazy Jake",
+  "description": "BEWARE! THE LEVEL OF CRAZINESS OF THIS VIKING MAY NOT BE FOR EVERYONE!\n\nRarity Levels:\n1 - Common (A pretty crazy one)\n2 - Special (One of a kind)\n3 - Epic (Only for special runs or events)",
+  "image": "ipfs://bafybeifvhxnlhezba3rnprdb3l37ulmgjbncgmojmwqltxsrwf6kgtpb4m/0.png",
+  "external_link": "https://www.iaesirfinance.com",
+  "id": 0,
+  "attributes": [
+    {
+      "trait_type": "World",
+      "value": "Avatar"
+    },
+    {
+      "trait_type": "Trait",
+      "value": "Crazy Jake"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3,
+      "max_value": 3
+    }
+  ]
+}

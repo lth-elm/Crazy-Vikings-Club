@@ -1,0 +1,34 @@
+{
+  "name": "Crazy Viking #400",
+  "description": "BEWARE! THE LEVEL OF CRAZINESS OF THIS VIKING MAY NOT BE FOR EVERYONE!\n\nRarity Levels:\n1 - Common (A pretty crazy one)\n2 - Special (One of a kind)\n3 - Epic (Only for special runs or events)",
+  "image": "ipfs://bafybeifvhxnlhezba3rnprdb3l37ulmgjbncgmojmwqltxsrwf6kgtpb4m/400.png",
+  "external_url": "https://www.iaesirfinance.com",
+  "id": 400,
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Haircolor",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black Hoodie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Tennis Ball"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Level",
+      "value": 1,
+      "max_value": 3
+    }
+  ]
+}

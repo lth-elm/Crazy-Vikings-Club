@@ -1,0 +1,118 @@
+.dashboard {
+  margin: 0rem 1rem;
+  padding: 1.2rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.5rem;
+
+  /* background: linear-gradient(to bottom right, #4255f9, #49fffd); */
+  background: linear-gradient(to bottom right, #4255f9, #a511f0);
+
+  font-weight: 500;
+  font-size: large;
+}
+
+.DivVikingImg {
+  display: flex;
+  align-items: center;
+}
+
+.VikingImg {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.h2VikingName {
+  margin-bottom: 5vw;
+}
+
+.InputPadding {
+  padding: 8px !important;
+}
+
+.text {
+  color: #a6ade7;
+}
+
+.DisplayNFT {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.NavigateAndBuy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
+}
+
+.navigate {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.leftButton {
+  text-align: end;
+  padding-right: 1.5rem;
+}
+
+.rightButton {
+  text-align: start;
+  padding-left: 1.5rem;
+}
+
+.btn-custom {
+  background-color: #00003c;
+  border: none;
+  color: #fff;
+  padding: 10px 12px !important;
+}
+
+.btn-custom:hover {
+  background-color: #00003cb0;
+  border: none;
+  color: #fff;
+}
+
+.btn-custom:disabled {
+  background-color: #a6ade7;
+  border: none;
+  color: #fff;
+}
+
+.RarityLevels {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+  padding: 10px 12px !important;
+  margin-bottom: 1.2rem;
+  gap: 16px;
+}
+
+.RarityLevels p {
+  margin: 0px;
+}
+
+.RarityLevels p:first-child {
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .DisplayNFT {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .NavigateAndBuy {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .RarityLevels {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .RarityLevels p:first-child {
+    margin-bottom: 8px;
+  }
+}
